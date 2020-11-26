@@ -1,0 +1,52 @@
+.edit-content{
+    margin: 200px auto;
+    width: 250px;
+    height: 280px;
+    box-shadow:  0 0 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    position: relative;
+}
+
+.edit-inp{
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    font-family: inherit;
+    width: 80%;
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    padding: 7px 0;
+    background: transparent;
+    transition: 0.2s;
+}
+
+.save-btn{
+    position: absolute;
+    left: 60%;
+    margin-top: 10px;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: none;
+}
+
+.cancel-btn{
+    position: absolute;
+    left: 20%;
+    margin-top: 10px;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: none;
+}
